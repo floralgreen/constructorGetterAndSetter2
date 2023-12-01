@@ -1,8 +1,8 @@
 public class Auto {
 
-    private final String marca;
-    private final String modello;
-    private final String targa;
+    private String marca;
+    private String modello;
+    private String targa;
     private int cilindrata;
 
     public Auto(String marca, String modello, String targa, int cilindrata) {
@@ -26,6 +26,18 @@ public class Auto {
 
     public int getCilindrata() {
         return cilindrata;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setModello(String modello) {
+        this.modello = modello;
+    }
+
+    public void setTarga(String targa) {
+        this.targa = targa;
     }
 
     public void setCilindrata(int cilindrata) {
